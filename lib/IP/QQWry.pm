@@ -4,7 +4,7 @@ use 5.008;
 use warnings;
 use strict;
 use Carp;
-use version; our $VERSION = qv('0.0.15');
+use version; our $VERSION = qv('0.0.16');
 
 my %cache;
 my $tmp;            # used for hold temporary data
@@ -229,7 +229,7 @@ IP::QQWry - a simple interface for QQWry IP database(file).
 
 =head1 VERSION
 
-This document describes IP::QQWry version 0.0.15
+This document describes IP::QQWry version 0.0.16
 
 
 =head1 SYNOPSIS
@@ -318,7 +318,7 @@ sunnavy  C<< <sunnavy@gmail.com> >>
 
 =head1 LICENCE AND COPYRIGHT
 
-Copyright (c) 2006, 2007, sunnavy C<< <sunnavy@gmail.com> >>. All rights reserved.
+Copyright (c) 2006-2009, sunnavy C<< <sunnavy@gmail.com> >>.
 
 This module is free software; you can redistribute it and/or
 modify it under the same terms as Perl itself. See L<perlartistic>.

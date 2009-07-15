@@ -39,3 +39,5 @@ Revision history for IP-QQWry
 0.0.15 2007-06-05
        - change module installer to Module::Install
        - add kwalitee tests
+0.0.16 Wed Jul 15 17:40:46 CST 2009
+       - check if base and ext have useless info, independantly
