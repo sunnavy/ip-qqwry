@@ -25,6 +25,10 @@ SKIP: {
             base => '北京市',
             ext  => '世纪互联数据中心',
         },
+        '114.78.123.177' => {
+            base => '澳大利亚',
+            ext  => '',
+        },
     );
     for my $ip ( keys %info ) {
         my ( $base, $ext ) = $qqwry->query($ip);
