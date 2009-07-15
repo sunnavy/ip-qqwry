@@ -138,7 +138,8 @@ sub _result {
     }
 
     # 'CZ88.NET' means we don't have useful information
-    return if ( $base . $ext ) =~ m/CZ88\.NET/;
+    $base = '' if $base =~ /CZ88\.NET/;
+    $ext = '' if $ext =~ /CZ88\.NET/;
     return ( $base, $ext );
 }
 
