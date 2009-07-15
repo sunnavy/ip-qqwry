@@ -5,5 +5,5 @@ all_from 'lib/IP/QQWry.pm';
 requires version => 0;
 build_requires 'Test::More' => 0;
 auto_install;
-recursive_author_tests('xt/');
+author_tests('xt/');
 WriteAll;
