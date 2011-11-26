@@ -4,7 +4,7 @@ use 5.008;
 use warnings;
 use strict;
 use Carp;
-use version; our $VERSION = qv('0.0.20');
+use version; our $VERSION = qv('0.0.21');
 
 my %cache;
 my $tmp;            # used for hold temporary data
