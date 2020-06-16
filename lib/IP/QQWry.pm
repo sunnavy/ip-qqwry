@@ -190,7 +190,7 @@ sub _seek {
 
 sub _str {
     my $self = shift;
-    my $str;
+    my $str  = '';
 
     read $self->{fh}, $tmp, 1;
     while ( ord $tmp > 0 ) {
